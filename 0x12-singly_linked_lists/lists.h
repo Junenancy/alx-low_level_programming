@@ -1,9 +1,6 @@
-#ifndef _LISTS_
-#define _LISTS_
+#ifndef LISTS_H
+#define LISTS_H
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 /**
  * struct list_s - singly linked list
@@ -12,7 +9,7 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
- * for ALX SE project
+ * for Holberton project
  */
 typedef struct list_s
 {
